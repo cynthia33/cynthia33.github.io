@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr" lang="en" lang="es">
+<head>
+  <title>Home Food : Commandez en ligne</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Home Food</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Qui sommes-nous ?</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Langues <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Français</a></li>
+          <li><a href="#">Anglais</a></li>
+          <li><a href="#">Espagnol</a></li>
+        </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Recherche" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+        </form>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 style="font-size:30px">Home Food</h1>      
+    <img src="https://www.briannas.com/wp-content/uploads/2014/03/grilled-chicken-salad-header.jpg" class="img-responsive" style="width:100%">
+    </div>
+    <div class="container row">
+    <div class="col-xs-12">
+      <h1 style="font-size:30px;content:center">Faites-vous livrer vos plats préférés où que vous soyez.</h1>
+        <div text-center>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Saisissez votre adresse" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+        </form>
+        </div>
+    </div>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Les P&eacutepites du quartier</h3><br>
+  <div class="row">
+    <div class="col-sm-4 bigfernand">
+      <p align="center" style="font-style:bold;font-size:16px">Big Fernand</p>
+      <a href="https://bigfernand.com/">
+      <img src="https://f.roocdn.com/images/menus/5220/header-image.jpg" class="img-responsive" style="width:100%;margin-bottom:1px" alt="Image"></a>
+      <p style="margin-top:5%">Faites-vous livrer les plus français des burgers : les fameux hamburgés maison de nos moustachus préférés !</p>
+          <a class="btn" href="#">Plus de d&eacutetails »</a>
+    </div>
+    <div class="col-sm-4 eatsalad" style="margin-bottom:5%"> 
+      <p align="center" style="font-style:bold;font-size:16px">Eat Salad</p>
+      <a href="https://eatsalad.fr/home">
+      <img src="https://f.roocdn.com/images/menus/20818/header-image.jpg" class="img-responsive" style="width:100%;margin-bottom:1px" alt="Image"></a>
+      <p style="margin-top:5%">Eat Salad est un restaurant de salades 100% nature ! Libre à vous de composer votre salade sur mesure ou de choisir parmi 12 recettes dont 4 de saison ! Tous nos produits sont frais et faits maison ! Et nous nous engageons à vous proposer des légumes de saison français ou d'ile de France.</p>
+          <a class="btn" href="#">Plus de d&eacutetails »</a>
+    </div>
+    <div class="col-sm-4 tripletta">
+      <p align="center" style="font-style:bold;font-size:16px">Tripletta</p>
+      <a href="">
+      <img src="https://f.roocdn.com/images/menus/24164/header-image.jpg" class="img-responsive" style="width:100%;margin-bottom:1px" alt="Image"></a>
+      <p style="margin-top:5%">La pizzeria napolitaine de Belleville qui sent bon l’Italie, la pizza qui sort tout juste du four et le Spritz !</p>
+          <a class="btn" href="#">Plus de d&eacutetails »</a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid center" align="center">
+  <h3>Souscrire à notre newsletter</h3>
+  <p>Nouveau client ? Merci de renseigner votre adresse mail.</p>
+  <form class="navbar-form navbar-center" action="/action_page.php" style="margin-bottom:5%">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Adresse mail" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Soumettre</button>
+    </form>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <div class="reseaux sociaux" align="left">
+            <a href=""><img src="https://vignette.wikia.nocookie.net/thelorde/images/9/9d/Facebook-logo-png-image-76118.png/revision/latest?cb=20170428142744" style="width:24px;height:24px;color:white;margin-right:1%"></a>
+            <a href=""><img src="http://www.logic-id.fr/ressources/img/icons/twitter/twitter-2048-black.png" style="width:24px;height:24px;color:white;margin-right:1%"></a>
+            <a href=""><img src="http://rapadoo.com/wp-content/uploads/2018/01/unique-instagram-icon-library.jpg" style="width:24px;height:24px;color:white;margin-right:1%"></a>
+            <a href=""><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/33-pinterest-512.png" style="width:24px;height:24px;color:white;margin-right:1%"></a>
+  </div>
+  <div class="copyright" align="right">
+          <p style="margin-top:0%">© 2018 Home Food</p>
+  </div>
+
+  <div class="applications" align="center" style="margin-top:0%">
+  <h3 style="font-size:15px;object-position:middle">Gardez Home Food dans votre poche</h3>
+      <a href="/app?platform=ios" target="_blank" rel="noopener noreferrer">
+        <span class="ccl-9515d92382999d48 applications">
+          <span class="ccl-f90a9461a8351bfb ccl-ed1ef21fd5589187 applications"><img src="https://www.prof-phifix.com/img/appstore@2x.png" class="img-responsive" style="width:10%;height:15%"></span>
+        </span>
+        <link rel="stylesheet" type="text/css" href="">
+      </a>
+    <div class="container-fluid applications" align="center">
+      <a href="/app?platform=android" target="_blank" rel="noopener noreferrer">
+        <span class="ccl-9515d92382999d48 applications">
+          <span class="ccl-f90a9461a8351bfb ccl-4f679b4f054d4574 applications"><img src="http://www.stopeen.com/wp-content/uploads/badge_playstore.png" class="img-responsive" style="width:10%;height: 15%"></span>
+        </span>
+        <link rel="stylesheet" type="text/css" href="https://play.google.com/store/apps">
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
